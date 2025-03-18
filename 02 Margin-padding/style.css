@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: solid 1px black;
+}
+
+.container{
+    background-color: gray;
+    width: 950px;
+    margin: 0 auto; /* Centra horizontalmente dentro de su contenedor */
+    padding: 20px;
+}
+.top-nav{
+    width: 100%; /* Ancho total de la pantallla */
+    height: 150px;
+    background-color: green;
+    
+}
+
+.main{
+    display: flex;
+    margin-top: 200px;
+}
+
+.left{
+    background-color: blue;
+    height: 300px;
+    flex: 1;
+    margin-right: 10px;
+}
+
+.right{
+    margin-left: 10px;
+    height: 400px;
+    background-color: red;
+    flex: 3;
+}
+
+.row{
+    padding: 20px;
+    gap: 20px;
+    height: 200px;
+    display: flex;
+}
+
+.yellow{
+    flex: 1;
+    background-color: yellow;
+
+}
+
+.row2{
+    margin: 20px;
+    background-color: purple;
+    height: 100px;
+}
