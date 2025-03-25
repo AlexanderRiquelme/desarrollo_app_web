@@ -1,0 +1,39 @@
+.cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(159, 202, 224);
+    width: 204px;
+    height: 97px;
+    margin: auto;
+    margin-top: 25px;   
+    
+
+}
+
+.pad{
+    background-color: rgb(69, 159, 199);
+    width: 305px;
+    height: 187px;
+    margin: auto;
+    margin-top: 25px;
+
+}
+
+.borde{
+    background-color: rgb(229, 166, 133);
+    width: 408px;
+    height: 287px;
+    margin: auto;
+    margin-top: 25px;
+
+}
+
+.container{
+    background-color: rgb(209, 91, 25);
+    width: 522px;
+    height: 388px;
+    margin: auto;
+    text-align: center;
+    font-size: 15px;
+}

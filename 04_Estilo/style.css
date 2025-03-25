@@ -1,0 +1,25 @@
+
+.top{
+    background-color: black;
+}
+.mid{
+    background-color: rebeccapurple;
+}
+.bot{
+    background-color:rgb(159,197,248)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+h1.bot{
+    text-decoration: underline;
+}
