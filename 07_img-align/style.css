@@ -1,0 +1,36 @@
+.container{
+    display:flex;
+    justify-self: center;
+    flex-direction: column;
+}
+img{
+    height: 400px;
+    margin: 20px;
+}
+p{
+    text-align: center;
+    font-size: 40px;
+}
+
+.top{
+    background-color: rgb(89, 197, 237);
+    margin: 20px;
+    display:flex;
+
+}
+
+.mid-top{
+    background-color: rgb(216, 162, 191);
+    margin: 20px;
+    display:flex; 
+    justify-content: center;
+    justify-content: space-evenly;
+
+}
+
+.mid-bot{
+    background-color: rgb(252, 252, 255);
+    margin: 20px;
+    display:flex;
+  
+}

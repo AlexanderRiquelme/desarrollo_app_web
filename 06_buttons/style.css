@@ -1,0 +1,30 @@
+
+
+.round{
+    margin-top: 40px;
+    width: 175px;
+    height: 45px;
+    border-radius: 45px;
+    border: 2px solid rgb(20, 156, 158);
+    color: rgb(20, 156, 158);
+}
+
+.plus{
+    background-color: rgb(0, 209, 178);
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    font-size: 50px ;
+    color:white;
+    margin: 10px;
+    
+}
+
+.shadow{
+    border: 3px solid black;
+    width: 200px;
+    height: 35px;
+    color: white;
+    background-color:rgb(43, 120, 228);
+    box-shadow: 4px 4px 0px rgba(0, 0, 0, 1); 
+}
