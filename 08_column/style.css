@@ -1,0 +1,20 @@
+*{
+    display: flex;
+}
+.row{
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+    background-color: blue; 
+
+}
+.col{
+    flex: 0.25;
+    
+}
+.col2{
+    flex:0.75;
+}
+.col3{
+    flex: 0.625;
+}
