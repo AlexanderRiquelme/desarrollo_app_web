@@ -1,0 +1,22 @@
+li{
+    list-style-type: none; /*quita viñetas de elemento lista*/
+}
+
+a{
+    margin: 10px;
+    text-decoration: none; /*quita decoracion de etiqueta anchor*/
+}
+
+.nav{
+    display: flex;
+    background-color: rgb(51, 51, 51);
+    
+}
+.nav-title{
+    display: flex;
+}
+.nav-links{
+    display: flex;
+    gap:20px;
+    justify-content: flex-end;
+}

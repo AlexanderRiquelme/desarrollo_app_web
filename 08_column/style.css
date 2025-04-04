@@ -1,20 +1,32 @@
-*{
-    display: flex;
-}
 .row{
-    flex: 1;
-    margin: 10px;
-    padding: 10px;
-    background-color: blue; 
+    display: flex;
+    gap: 10px;
+    height: 60px;
+}
+.col,.col2,.col3,.col4,.col5{
+    margin-top: 10px;
+    background-color: rgb(89, 152, 160);
+    text-align: center;
+    justify-content: center;
+    align-content: center;
 
 }
 .col{
-    flex: 0.25;
-    
+
+    flex:1;
 }
 .col2{
-    flex:0.75;
+
+    flex:1;
 }
 .col3{
-    flex: 0.625;
+
+    flex:2;
 }
+.col4{
+    flex: 2;
+}
+.col5{
+    flex: 3;
+}
+
