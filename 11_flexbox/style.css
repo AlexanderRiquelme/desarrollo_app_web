@@ -1,0 +1,35 @@
+*{
+    font:message-box
+}
+.top-bar{
+    display: flex;
+    flex:1;
+    background-color: rgb(52, 73, 94);
+    text-align: center;
+    color: white;
+}
+.flex{
+    font-size: 24px;
+    font-family: Impact;
+}
+.mid{
+    display: flex;
+    flex: 9;
+    background-color: rgb(253, 246, 236);
+
+}
+.container{
+    background-color: white;
+    margin-top: 100px;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 15px;
+}
+.box1{
+    flex: 3;
+    background-color: rgb(230, 126, 34);
+}
+.box2,.box3,.box4{
+    background-color: rgb(211, 84, 0)   ;
+    flex: 1;
+}

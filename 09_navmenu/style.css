@@ -18,5 +18,5 @@ a{
 .nav-links{
     display: flex;
     gap:20px;
-    justify-content: flex-end;
+    align-items: flex-end;
 }
