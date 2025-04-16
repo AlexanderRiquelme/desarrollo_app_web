@@ -1,0 +1,19 @@
+*{
+    outline: 2px solid black;
+}
+
+.container{
+    display: flex;
+
+}
+
+.top{
+    flex: 3;
+    background-color: rgb(66, 163, 185);
+    display: flex;
+}
+.bot{
+    display: flex;
+    flex: 7;
+    background-color: white;
+}
