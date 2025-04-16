@@ -10,13 +10,36 @@ a{
 .nav{
     display: flex;
     background-color: rgb(51, 51, 51);
+     
+}
+
+.title{
+    color: white;
+    margin-left: 10px;
+    flex:7.5;
+    margin-bottom: 20px;
+    align-self: center;
+}
+
+.links{
+    display: flex;
+    gap:20px;   
+    flex: 2,5;  
+    color: white;
+    margin-right: 40px;
+    align-items: center;
+
+}
+
+.grey{
+    color: rgb(204, 204, 204)   ;
+}
+.bot{
+    color: white;
+    background-color: rgb(23, 162, 184);
+    border: 5px solid black;
+    box-shadow: 2px 2px 3px black;
+    padding: 10px;
     
-}
-.nav-title{
-    display: flex;
-}
-.nav-links{
-    display: flex;
-    gap:20px;
-    align-items: flex-end;
+    
 }
