@@ -1,19 +1,33 @@
-*{
+/* *{
     outline: 2px solid black;
+} */
+.texto{
+    font-size: 24px;
 }
-
+.map,.gear{
+    width: 25px;
+}
 .container{
-    display: flex;
-
+    border:2px solid rgb(153, 153, 153);
 }
-
+.img img{
+    border: 5px solid white;
+    border-radius: 50%;
+    height: 200px;
+    margin-top: 90px;
+    margin-left: 20px;
+}
 .top{
-    flex: 3;
+    height: 200px;
     background-color: rgb(66, 163, 185);
-    display: flex;
+
 }
 .bot{
-    display: flex;
+    margin-top: 90px;
     flex: 7;
-    background-color: white;
+    padding-top: 10px;
+    background-color: rgb(255, 255, 255);
+}
+.nombre{
+    font-size: 50px;
 }
