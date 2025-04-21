@@ -1,35 +1,54 @@
 *{
-    font:message-box
-}
-.top-bar{
-    display: flex;
-    flex:1;
-    background-color: rgb(52, 73, 94);
-    text-align: center;
+    padding: 0;
+    margin: 0;
     color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-.flex{
-    font-size: 24px;
-    font-family: Impact;
-}
-.mid{
-    display: flex;
-    flex: 9;
-    background-color: rgb(253, 246, 236);
-
+.grande{
+    font-size: 22px;
+    margin-bottom: 25px;
 }
 .container{
-    background-color: white;
-    margin-top: 100px;
-    flex-wrap: wrap;
+    flex-direction: row;
+}
+.top{
+    padding: 35px 25px;
+    background-color: rgb(52, 73, 94);
+    text-align: center;
+
+}
+.top h1{
+    margin-bottom: 15px;
+}
+.bot{
+    flex: 9;
+    background-color: rgb(253, 246, 236);
+    padding-top: 10px;
+    padding-bottom: 50px;
     display: flex;
-    gap: 15px;
 }
-.box1{
-    flex: 3;
+.body{
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3)
+}
+.row{
+    display: flex;
+}
+.box{
+    
+    background-color: rgb(211, 84, 0);
+    border-radius: 7px; 
+    margin: 5px;
+    height: 100px;
+}
+
+.box-main{
     background-color: rgb(230, 126, 34);
-}
-.box2,.box3,.box4{
-    background-color: rgb(211, 84, 0)   ;
-    flex: 1;
+    border-radius: 7px;
+    height: 100px
 }
