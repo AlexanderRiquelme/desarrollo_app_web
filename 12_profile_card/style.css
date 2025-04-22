@@ -1,31 +1,32 @@
-
+*{
+    padding: 0;
+    margin: 0;
+    /* outline: 1px solid black; */
+}
+.homero{
+    margin-top: 100px;
+    border-radius: 50%;
+    border: 5px solid white;
+    height: 25%;
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
 
 .carta{
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    justify-self:center ;
-    align-self: center;
-    border-radius: 20px;
+    margin-top: 100px;
+    text-align: center;
+}
+.transparente{
+    color: rgb(0, 0, 0, 0.2);
     
 }
 .texto{
-    text-align:center;
-    background-color: white;
+    font-size: 16px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    border-radius: 20px;
+    box-shadow: 0px 9px 27px rgb(0, 0, 0, 0.5);
 }
-
-.homero{
-    height: 150px;
-    width: 150px;
-    border-radius: 50%;
-    
-    align-self: center;
-}
-
-.bot{
-    background-color: rgb(55, 152, 219);
-    color: white;
-    border-radius: 10px;
-    border: 0px;
-}
-
