@@ -1,16 +1,8 @@
-/*
-Enunciado:
-Crea un arreglo con los días de
-la semana. Luego, al hacer clic en
-el botón, muestra con alert() el
-día martes
-usando su posición en el arreglo.
-*/
-
-
-function sumaExtremos() {
-  let valores = [1, 2, 3]
-  suma = valores[0] + valores[valores.length-1]
-  alert(suma)
+function diferenciaCentroExtremos() {
+  let valores = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+  console.log(valores[valores.length / 2])
+  let diferencia = valores[valores.length-1] - valores[valores.length / 2]
+  
+  alert(diferencia)
 }
 
