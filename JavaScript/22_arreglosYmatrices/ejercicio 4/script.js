@@ -1,9 +1,13 @@
-/*
-Enunciado:
-Crea un arreglo con los días de
-la semana. Luego, al hacer clic en
-el botón, muestra con alert() el
-día martes
-usando su posición en el arreglo.
-*/
+function multiplicaPares() {
+    let valores = [0,1,2,3,4,5,6,7,8,9,10]
+    let mult = 0
+    for (let i = 0; i < valores.length; i = i + 2){
+        
+        mult = mult + valores[i] * valores[i]
+        console.log(mult,i)
+    }
+    
+    
+    alert(mult)
+}
 
