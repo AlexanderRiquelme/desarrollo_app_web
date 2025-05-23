@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    /* outline: 1px solid rgb(217, 255, 0); */
+}
+.top{
+    margin: 10px 10px 0px 10px;
+}
+.bot{
+    margin: 0px 10px 10px 10px;
+}
+.bot,
+.top{
+    display: flex;
+    flex: 1;
+
+}
+.top-l{
+    display: flex;
+    flex: 7.5;
+    flex-direction: column;
+}
+.top-r{
+    display: flex;
+    flex: 2.5;
+    flex-direction: column
+}
+.bot-l{
+    display: flex;
+    flex: 3;
+}
+.bot-r{
+    display: flex;
+    flex: 7;
+    flex-direction: column;
+}
+
+body {
+    display: flex;
+    background-color: black;
+}
+
+.box {
+    background-color: rgb(178, 181, 180);
+    margin: 10px;
+}
+
+.container {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    height: 800px;
+    width: 800px;
+    margin: auto;
+    flex-direction: column;
+}
+.top-l .b1{
+    flex: 8;
+}
+.top-l .b2{
+    flex:2;
+}
+.top-r .b1,.b2, .bot-r .b1,.b2{
+    flex: 1;
+}
+.bot-l .b1{
+    flex: 1;
+}
+
