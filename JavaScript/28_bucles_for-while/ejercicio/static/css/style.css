@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.nav {
+    display: flex;
+    width: 100%;
+    color: white;
+    background-image: url(oak_planks.png);
+    padding: 10px 0;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+    flex-direction: row;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: rgb(135, 200, 222);
+    border-radius: 10px;
+    border: none;
+}
+
+.div{
+    color: white;
+    font-size: larger;
+}
