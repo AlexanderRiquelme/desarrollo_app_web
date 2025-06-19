@@ -3,7 +3,9 @@
     margin: 0;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-
+body{
+    background-image: url(bricks.png);
+}
 .nav {
     display: flex;
     width: 100%;
@@ -23,9 +25,11 @@
 
 .btn {
     padding: 10px 20px;
-    background-color: rgb(135, 200, 222);
-    border-radius: 10px;
-    border: none;
+    color: white ;
+    background-image: url(stone.png);
+    width: 132px;
+    height: 124px;
+    font-size: large;
 }
 
 .div{
