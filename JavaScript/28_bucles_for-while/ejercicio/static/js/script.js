@@ -61,7 +61,7 @@ function multiplicarTabla() {
     for (let i = 1; i <= 10; i++) {
         resultado.push(numero * i)
     }
-    document.getElementById("resultadoMultiplicar").innerHTML = `<p>El resultado es ${resultado.join(", ")}<p>`
+    document.getElementById("resultadoMultiplicar").innerHTML = `<p>El resultado es ${resultado.join(", ")}</p>`
 }
 
 function sumaHastaCero() {
@@ -71,7 +71,7 @@ function sumaHastaCero() {
         i = parseInt(prompt("ingrese un valor para sumar o ingrese 0 para terminar"))
         n += i
     }
-    document.getElementById("resultadoCero").innerHTML = `<p>el resultado final es: ${n}<p>`
+    document.getElementById("resultadoCero").innerHTML = `<p>el resultado final es: ${n}</p>`
 
 }
 
@@ -81,7 +81,7 @@ function mostrarLetras() {
     for (let i = 0,n = dato.length;i <= n; i++){
         resultado.push(dato[i])
     }
-    document.getElementById("resultadoLetras").innerHTML = `<p>cada letra de la <br>palabra ingresada es <br>${resultado.join(", ")}<p>`
+    document.getElementById("resultadoLetras").innerHTML = `<p>cada letra de la <br>palabra ingresada es <br>${resultado.join(", ")}</p>`
 }
 
 function validarPassword() {
@@ -91,30 +91,48 @@ function validarPassword() {
 
     let dato = prompt("ingrese su contraseña")
     if (dato == password) {
-        document.getElementById("password").innerHTML = `<p>Acceso permitido<p>`
+        document.getElementById("password").innerHTML = `<p>Acceso permitido</p>`
     } else {
-        document.getElementById("password").innerHTML = `<p>Acceso denegado<p>`
+        document.getElementById("password").innerHTML = `<p>Acceso denegado</p>`
     }
 
-    
-    
-    
     // for (let i = 0; i <= passwords.length; i++) {
     //     if (dato == passwords[i]) {
-    //         document.getElementById("password").innerHTML = `<p>Acceso permitido<p>`
+    //         document.getElementById("password").innerHTML = `<p>Acceso permitido</p>`
     //     } else {
-    //         document.getElementById("password").innerHTML = `<p>Acceso denegado<p>`
+    //         document.getElementById("password").innerHTML = `<p>Acceso denegado</p>`
     //     }
     // }
 }
 
 function calcularPromedio() {
+    let promedio = 0
     let notas = [];
     let cantNotas = parseInt(prompt("Ingrese la cantidad de notas que va a ingresar"))
-    for (let i = 0; i <= cantNotas; i++){
+    for (let i = 0; i <= cantNotas-1; i++){
         notas.push(parseInt(prompt("Ingrese una nota")))
+        if (i >= 10) {
+            break
+        }
     }
-    
+    for (let i = 0; i <= notas.length-1; i++) {
+        promedio += notas[i]
+    }
+    console.log(promedio)
+    promedio = promedio / notas.length
+    console.log(promedio)
+    document.getElementById("promedio").innerHTML = `<p>Su promedio de notas es: ${promedio}</p>`
 }
 
-
+function mayorEdad() {
+    let a = 0
+    let mayores = 0
+    let cant = parseInt(prompt("Ingrese la cantidad de personas a ingresar"))
+    for (let i = 0; i <= cant; i++){
+        a = parseInt(prompt("Ingrese la edad"))
+        if (a >= 18){
+            mayores++
+        }
+    }
+    document.getElementById("mayores").innerHTML = `<p>La cantidad de personas mayores de edad ingresadas es:<br>${mayores}</p>`
+}
