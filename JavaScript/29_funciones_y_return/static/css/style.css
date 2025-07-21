@@ -36,6 +36,7 @@ body{
     width: 400px;
     height: 40px;
     background-image: url(inputtext.png);
+    color: white;
 }
 
 div{
