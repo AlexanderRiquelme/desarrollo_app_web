@@ -1,6 +1,6 @@
 function contarPares(a){
   let lista = []
-  for (let i = 2;i <= a;i++){
+  for (let i = 2; i <= a; i++){
     if (i % 2 == 0) {
       lista.push(i)
     }
