@@ -16,4 +16,3 @@ function llamarFuncion(){ // Crear metodo para llamar a la función contarPares
   alert(`El conteo a terminado siendo: ${resultado}`) // Escribir el resultado en el alert
   console.log(`El conteo a terminado siendo: ${resultado}`) // Escribir el resultado en la consola
 }
-
