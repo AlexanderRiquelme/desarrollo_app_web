@@ -80,12 +80,15 @@ a {
 .row{
     display: flex;
 }
-.box p {
+.definition-text {
     align-self: center;
+    font-size: 24px;
+    margin: 0px 0px 0px 30px;  
+    padding: 0px 90px 0px 0px;
 
 }
 
 .left h1 ,.left p{
-    justify-items: center;
+    justify-self: center;
     margin: 10px 0px 10px 0px ;
 }
