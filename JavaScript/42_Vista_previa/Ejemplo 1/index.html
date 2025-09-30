@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Hover en Bloque</title>
+    <style>
+        .block {
+            height: 50px;
+            width: 200px;
+            background-color: silver;
+            border: 1px dotted black;
+            margin: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Ejemplo con DIV</h2>
+    <div class="block" onmouseover="over(this)" onmouseout="out(this)"></div>
+
+    <script>
+        function over(element) {
+            element.style.backgroundColor = "lime";
+        }
+
+        function out(element) {
+            element.style.backgroundColor = "silver";
+        }
+    </script>
+</body>
+
+</html>
