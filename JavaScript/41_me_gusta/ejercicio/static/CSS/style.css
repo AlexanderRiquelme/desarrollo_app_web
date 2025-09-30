@@ -57,6 +57,7 @@ a {
 }
 .like{
     background-color: rgb(255, 217, 102);
+    width: 120px;
 }
 
 .box {
@@ -66,12 +67,25 @@ a {
 }
 .definition {
     width: 80%;
+    display: flex;    
 }
 
 .addDef {
     width: 50%;
-}
 
+}
+.addDef button{
+    margin: 20px 0px 0px 0px;
+}
 .row{
     display: flex;
+}
+.box p {
+    align-self: center;
+
+}
+
+.left h1 ,.left p{
+    justify-items: center;
+    margin: 10px 0px 10px 0px ;
 }
