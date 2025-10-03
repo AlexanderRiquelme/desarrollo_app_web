@@ -1,0 +1,8 @@
+* {
+    outline: 1px black solid;
+}
+
+.video-small img {
+    height: 200px;
+    width: 200px;
+}
